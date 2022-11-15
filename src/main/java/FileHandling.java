@@ -56,6 +56,7 @@ public class FileHandling extends Component {
                 Object id = jsonObjectProduct.get("id");
                 Object quantity = jsonObjectProduct.get("quantity");
                 Object value = jsonObjectProduct.get("value");
+                System.out.println(object);
 
                 Product product = new Product();
                 product.setType(Type.valueOf(type.toString()));
